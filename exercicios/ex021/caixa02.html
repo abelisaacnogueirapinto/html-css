@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento semantico de tags</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(201, 198, 165, 0.87);
+        
+    }
+    header {
+        background-color: rgba(56, 58, 37, 0.582);
+        margin: 10px;
+        padding: 10px;
+    }
+    h1 {
+        box-shadow:1px 1px 1px 1px inset;
+
+    }
+    main {
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+    }
+    nav {
+        background-color: antiquewhite;
+        padding: 5px;
+        box-shadow: 1px 1px 1px 1px rgba(20, 18, 18, 0.479);
+       
+    }
+    nav > a{
+        text-decoration: none;
+        color: rgb(180, 28, 28);
+        margin-right: 40px;
+        font-weight: bold;
+        font-size: 20px;
+        
+    }
+    article {
+        background-color: rgb(220, 241, 233);
+        padding: 5px;
+    }
+    article > aside {
+
+        background-color: rgb(160, 187, 177);
+
+    }
+    footer {
+        background-color: rgba(56, 58, 37, 0.582);
+        color:white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+        
+    }
+</style>
+<body>
+    <header>
+        <h1>Cabeçalho do site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+            <a href="#">Notícias</a>
+            <a href="#">Associado</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        <p> Esportes Política e Tecnologia</p>
+    </section>
+    <section id="noticias">
+        <article>
+            <h2>Noticias do Brasil </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi totam labore quasi repellat temporibus dolor eum cum, nesciunt quas ex. Sapiente commodi ex in unde error qui sit ullam eos!</p>
+            <aside>
+                <p>Artigo Escrito por Jonh Walker</p>
+            </aside>
+        </article>
+    </section>
+    </main>
+    <footer>
+        <p>
+            Desenvolvido pelo Abel em cursoemvideo
+        </p>
+    </footer>
+ </body>
+</html>

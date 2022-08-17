@@ -1,0 +1,25 @@
+@charset "UT-8";
+body {
+    background-color: rgba(174, 255, 228, 0.815);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    color:white;
+    background-color: black;
+    border: 5;
+    border-style: 5;
+    border-color: blue;
+}
+h1 {
+    border: 10px;
+    border-style: double;
+    padding: 20px;
+    color:rgb(17, 99, 17);
+    margin: 30px;
+    box-shadow: ;
+}
+h2 {
+    color:rgb(97, 156, 37);
+}
