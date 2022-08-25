@@ -87,6 +87,8 @@ section.imagem > p {
 }
 section > p {
     padding-bottom: 2em;
+   font-style: bold;
+   font-size: 2em;
 }
 
 section#img01 {
@@ -99,6 +101,7 @@ section#img02 {
 }
 section#img02 {
     background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 footer {
     background-color: black;
