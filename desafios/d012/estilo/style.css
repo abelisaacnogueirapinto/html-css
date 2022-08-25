@@ -8,20 +8,30 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Dancing Script', cursive;
 }
+
 * {
 
     margin: 0px;
     padding: 0px;
+
 }
 html, body {
     font-family:var(--fonte1);
     min-height: 100vh;
     background-color: darkgray;
 }
+
 header {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;  
+
 }
 header > h1 {
     padding-top: 50px;
@@ -33,6 +43,7 @@ header > p {
     padding-bottom: 50px;
 
 }
+
 header a, footer a {
     color: white;
     text-decoration: none;
@@ -48,12 +59,14 @@ section {
     font-family: var(--fonte3);
     font-size: 3.5vw;
     padding-left: 30px;
+
 }
 section.normal {
     background-color: white;
     color: black;
 
 }
+
 section.imagem {
     background-color: rgb(54, 52, 52);
     color: white;
@@ -61,11 +74,16 @@ section.imagem {
     background-size: cover;
     background-attachment: fixed;
 }
+section.imagem { 
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.459);
     text-shadow: 2px 2px 1px 1px;
+    background-color: rgba(0, 0, 0, 0.13);
 }
 section > p {
     padding-bottom: 2em;
@@ -78,6 +96,9 @@ section#img01 {
 section#img02 {
     background-image: url('../imagens/background002.jpg');
     background-position: right center;
+}
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
 }
 footer {
     background-color: black;
