@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+/* estilo de funcoes*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url('../imagens/pattern004.png');
+    font-family: 'Abel', sans-serif;
+}
+a {
+    text-decoration:none;
+    color: green;
+    background-color: rgb(10, 10, 9);
+}
+a.hover {
+    color: blue;
+}
+h1 {
+    font-size: 3em;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    margin: auto;
+    text-align: center;
+}
+
+a.link:hover {
+    
+    color: rgb(248, 234, 234);
+    text-decoration: underline;
+}
+section {
+padding-top: 10vh;
+padding-bottom: 10vh;
+
+}
+section > p {
+    padding-left: 20px;
+    font-size: 1.7em;
+    font-style: bold;
+    padding-bottom: 2px;
+}
+section.imagem {
+    height: 50vh;
+    
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding-left: 20px;
+    color: white;
+    text-shadow: 2px 2px 1px 1px;
+    background-color: rgba(0, 0, 0, 0.548);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.288);
+    
+}
+section#img01 {
+    background-image: url('../imagens/pexels-pixabay-45239.jpg');
+    background-position: center center;
+    padding-bottom: 50px;
+    
+}
+footer {
+
+     background-color: black;
+     padding: 10px;
+     text-align: center;
+     font-size: 1.5em;
+     color: antiquewhite;
+
+}
+footer > a {
+    color: rgb(142, 155, 28);
+    text-decoration: underline;
+    text-decoration-color: rgb(21, 196, 137);
+}
