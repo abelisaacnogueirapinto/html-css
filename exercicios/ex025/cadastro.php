@@ -1,0 +1,1 @@
+arquivo não gravou nada
