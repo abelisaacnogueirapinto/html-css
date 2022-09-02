@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>responsivo Hamburguer menu</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickmenu()">menu</i>
+        <menu id="opcoes">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -26,12 +28,28 @@
             <h2>Testando Media Queries</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odio cum quas, esse dicta neque quisquam nisi! Perferendis, nisi quas quia optio porro nemo id error atque placeat aliquam Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam quod vero harum voluptatum dignissimos natus expedita? Asperiores, nihil obcaecati. Itaque quibusdam, dolorem accusantium reiciendis aut quas dicta sit voluptatum a.</p>
 
+            
+
+            
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odio cum quas, esse dicta neque quisquam nisi! Perferendis, nisi quas quia optio porro nemo id error atque placeat aliquam Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam quod vero harum voluptatum dignissimos natus expedita? Asperiores, nihil obcaecati. Itaque quibusdam, dolorem accusantium reiciendis aut quas dicta sit voluptatum a.</p>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odio cum quas, esse dicta neque quisquam nisi! Perferendis, nisi quas quia optio porro nemo id error atque placeat aliquam Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam quod vero harum voluptatum dignissimos natus expedita? Asperiores, nihil obcaecati. Itaque quibusdam, dolorem accusantium reiciendis aut quas dicta sit voluptatum a.</p>
 
         </article>
     </main>
+    <script>
+        function clickmenu () {
+            if (opcoes.style.display == 'block'){
+                opcoes.style.display = 'none'
+            } else {
+                opcoes.style.display = "block"
+
+            }
+            
+
+        }
+
+    </script>
 
     
 </body>
